@@ -1,0 +1,48 @@
+body{
+  margin:0px;
+  padding:7%;
+  padding-top:3%;
+  background-color:rgba(255,0,0,.25);
+  z-index:0;
+}
+#back img{
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  z-index:-100;
+}
+#filter{
+  width:100%;
+  height:100vh;
+  background-color:rgba(211,2111,2111,.3);
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:-99;
+}
+#header{
+  max-height:30vh;
+  background-color:#208005;
+  padding:2%;
+  border:solid;
+  border-color:black;
+  border-radius:15px;
+  font-size:300%;
+  color:white;
+  text-align:center;
+}
+.links{
+  font-size:50%;
+}
+.info_div{
+  background-color:#208005;
+  padding:2%;
+  border:solid;
+  border-color:black;
+  border-radius:15px;
+  font-size:100%;
+  color:white;
+  text-align:center;
+}
