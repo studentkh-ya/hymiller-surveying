@@ -1,5 +1,5 @@
 body{
-  background-color:#006400;
+  background-color:grey;
   margin:0px;
   padding:7%;
   padding-top:3%;
@@ -44,7 +44,7 @@ body{
   border-radius:15px;
   font-size:100%;
   color:white;
-  text-align:center;
+  text-align:left;
 }
 hr{
   padding:0px;
@@ -55,4 +55,8 @@ a{
   color:white;
   text-decoration:none;
   
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
 }
